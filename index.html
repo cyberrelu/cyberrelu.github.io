@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KA-152 Cyber Awareness Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        header {
+            background: #2c2c2c;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #ffffff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        h1, h2 {
+            color: #4CAF50;
+        }
+        .team-member {
+            background: #2c2c2c;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+        .team-member:hover {
+            transform: scale(1.05);
+        }
+        .blog-post {
+            background: #2c2c2c;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+        .blog-post:hover {
+            transform: translateY(-5px);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .fade-in {
+            animation: fadeIn 1s ease-in;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="fade-in">KA-152 Cyber Awareness Project</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#team">Our Team</a>
+        <a href="#blogs">Blogs</a>
+    </nav>
+    <div class="container">
+        <section id="home" class="fade-in">
+            <h2>Cyber Threats and Their Impact</h2>
+            <p>Cyber crimes and threats pose significant dangers to our social and financial world. Some of the damages include:</p>
+            <ul>
+                <li>Financial losses for individuals and businesses</li>
+                <li>Identity theft and fraud</li>
+                <li>Disruption of critical infrastructure</li>
+                <li>Privacy breaches and data leaks</li>
+                <li>Psychological impact on victims</li>
+            </ul>
+            <p>Our project aims to educate youth about these threats and empower them with knowledge to stay safe online.</p>
+        </section>
+        <section id="team" class="fade-in">
+            <h2>Our Team</h2>
+            <div class="team-member">
+                <h3>Faisal Durbaa</h3>
+                <p>11th Grade - Team Captain - Developer</p>
+            </div>
+            <div class="team-member">
+                <h3>Abdurrahim Aykut</h3>
+                <p>11th Grade - Team Member - Developer</p>
+            </div>
+            <div class="team-member">
+                <h3>Arife Nur Ayaz</h3>
+                <p>11th Grade - Team Member - Researcher</p>
+            </div>
+        </section>
+        <section id="blogs" class="fade-in">
+            <h2>Blogs</h2>
+            <div class="blog-post">
+                <h3>Understanding Phishing Attacks</h3>
+                <p>Learn about one of the most common cyber threats and how to protect yourself...</p>
+            </div>
+            <div class="blog-post">
+                <h3>The Importance of Strong Passwords</h3>
+                <p>Discover why strong passwords are crucial and how to create them...</p>
+            </div>
+            <div class="blog-post">
+                <h3>Staying Safe on Social Media</h3>
+                <p>Tips and tricks to maintain your privacy and security on social platforms...</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
